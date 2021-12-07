@@ -4,6 +4,9 @@
 #define N 5
 #define nomTam 20
 
+void leeClase(int tam);
+void imprime(int tam);
+
 int main()
 {
     int salon;
@@ -39,7 +42,7 @@ void leeClase(int tam)
     fclose(ptr);
 }
 
-void imprime(tam)
+void imprime(int tam)
 {
     FILE *ptr;
     int i;
